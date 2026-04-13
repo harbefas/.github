@@ -1,21 +1,72 @@
-🌿 Welcome to Mate Creations: Where Tech Meets Yerba Mate Magic! 🚀
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mateCreations/omarchy-yerba-mate/master/images/logo.png" alt="Mate Creations" width="72" />
+</p>
 
-At Mate Creations, we brew a unique blend of creativity and technology to craft stunning themes for your favorite applications. Just like the refreshing sip of Yerba Mate on a sunny day, our themes invigorate your digital experience. 🍃💻
+<h2 align="center">Mate Creations</h2>
 
-🚀 **Elevate Your App Aesthetics**: Unleash the power of design with our meticulously crafted themes that transform the ordinary into the extraordinary. Whether you're a developer, designer, or tech enthusiast, our themes will make your applications pop!
+<p align="center">
+  Two themes. Dark and light. Yerba Mate and Terere.
+</p>
 
-🌈 **A Splash of Color, A Dash of Innovation**: Our themes are inspired by the vibrant hues of Yerba Mate, and they bring an explosion of color to your digital world. Say goodbye to dull and monotonous interfaces; say hello to a world of endless possibilities!
+<p align="center">
+  <a href="https://github.com/mateCreations/yerba-mate.nvim">Neovim</a> ·
+  <a href="https://github.com/mateCreations/vscode-yerba-mate">VS Code</a> ·
+  <a href="https://github.com/mateCreations/obsidian-yerba-mate">Obsidian</a> ·
+  <a href="https://github.com/mateCreations/omarchy-yerba-mate">Omarchy</a> ·
+  <a href="https://github.com/mateCreations/zen-yerba-mate">Zen Browser</a> ·
+  <a href="https://github.com/mateCreations/librewolf-yerba-mate">LibreWolf</a>
+</p>
 
-🔧 **Cutting-Edge Customization**: Our tech wizards have conjured up the most customizable themes in the industry. Tweak, twist, and tailor your app's appearance to your heart's content. Personalize your digital space like never before.
+---
 
-🌐 **Global Flavor, Local Expertise**: Just like Yerba Mate brings people together, Mate Creations brings you themes inspired by cultures worldwide. From Tokyo's neon lights to the rustic charm of Barcelona, we've got themes that speak your language, no matter where you're from.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mateCreations/yerba-mate.nvim/master/images/preview.png" alt="Yerba Mate — Neovim preview" width="720" />
+</p>
 
-🚀 **Seamless Integration**: Our themes aren't just pretty faces; they're built with tech prowess that ensures a smooth, glitch-free experience. Our code is as crisp as a fresh Mate brew in the morning.
+<table align="center">
+  <tr>
+    <td align="center" colspan="2"><strong>Yerba Mate</strong> — dark</td>
+    <td align="center" colspan="2"><strong>Terere</strong> — light</td>
+  </tr>
+  <tr>
+    <td><img src="https://placehold.co/20x20/1c1e13/1c1e13" /> Background</td>
+    <td><code>#1c1e13</code></td>
+    <td><img src="https://placehold.co/20x20/fbf1c7/fbf1c7" /> Background</td>
+    <td><code>#fbf1c7</code></td>
+  </tr>
+  <tr>
+    <td><img src="https://placehold.co/20x20/c25d44/c25d44" /> Keywords</td>
+    <td><code>#c25d44</code></td>
+    <td><img src="https://placehold.co/20x20/9d0006/9d0006" /> Keywords</td>
+    <td><code>#9d0006</code></td>
+  </tr>
+  <tr>
+    <td><img src="https://placehold.co/20x20/8fb339/8fb339" /> Strings</td>
+    <td><code>#8fb339</code></td>
+    <td><img src="https://placehold.co/20x20/79740e/79740e" /> Strings</td>
+    <td><code>#79740e</code></td>
+  </tr>
+  <tr>
+    <td><img src="https://placehold.co/20x20/7eb2d1/7eb2d1" /> Functions</td>
+    <td><code>#7eb2d1</code></td>
+    <td><img src="https://placehold.co/20x20/076678/076678" /> Functions</td>
+    <td><code>#076678</code></td>
+  </tr>
+  <tr>
+    <td><img src="https://placehold.co/20x20/a67c52/a67c52" /> Types</td>
+    <td><code>#a67c52</code></td>
+    <td><img src="https://placehold.co/20x20/b57614/b57614" /> Types</td>
+    <td><code>#b57614</code></td>
+  </tr>
+</table>
 
-📱 **Cross-Platform Magic**: Whether you're on your desktop, tablet, or mobile device, Mate Creations themes adapt seamlessly, ensuring a consistent and delightful user experience across all platforms.
+---
 
-🌱 **Sustainability and Responsibility**: Just like Yerba Mate cultivation demands care and responsibility, we are committed to sustainable design practices. Mate Creations themes are designed to minimize digital waste and reduce environmental impact.
-
-Join the Mate Creations revolution today and infuse your digital life with the spirit of Yerba Mate! Explore our collection of themes that combine tech-savvy innovation with the vibrant, energetic aura of this beloved beverage. 🍃✨
-
-Experience the future of application theming with Mate Creations. Cheers to the perfect blend of tech and taste! 🎉🌐🍵
+| App | Dark | Light |
+|-----|------|-------|
+| **Neovim** | [yerba-mate.nvim](https://github.com/mateCreations/yerba-mate.nvim) | included |
+| **VS Code** | [vscode-yerba-mate](https://github.com/mateCreations/vscode-yerba-mate) | included |
+| **Obsidian** | [obsidian-yerba-mate](https://github.com/mateCreations/obsidian-yerba-mate) | included |
+| **Omarchy** | [omarchy-yerba-mate](https://github.com/mateCreations/omarchy-yerba-mate) | [omarchy-terere](https://github.com/mateCreations/omarchy-terere) |
+| **Zen Browser** | [zen-yerba-mate](https://github.com/mateCreations/zen-yerba-mate) | [zen-terere](https://github.com/mateCreations/zen-terere) |
+| **LibreWolf** | [librewolf-yerba-mate](https://github.com/mateCreations/librewolf-yerba-mate) | included |
