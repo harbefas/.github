@@ -24,7 +24,12 @@
 | [omarchy-system-stats](https://github.com/harbefas/omarchy-system-stats) | Bar widget: live CPU/mem/disk, per-core temps, top processes |
 | [omarchy-keybinds](https://github.com/harbefas/omarchy-keybinds) | Searchable keybinding reference for Hyprland and your terminal tools |
 | [omarchy-dynamic-wallpaper](https://github.com/harbefas/omarchy-dynamic-wallpaper) | Wallpaper that changes with time of day |
-| [keybinds-tui](https://github.com/harbefas/keybinds-tui) | Standalone TUI version, auto-opens on the tab matching your focused app |
+
+### Hyprland / Wayland
+
+| Project | What it does |
+|---|---|
+| [keybinds-tui](https://github.com/harbefas/keybinds-tui) | Terminal keybinding lookup, auto-opens on the tab matching your focused app |
 | [hyprpad](https://github.com/harbefas/hyprpad) | Turn your phone into a mouse/keyboard/trackpad over the browser, no app install |
 
 ### Paperboy — RSS reader
