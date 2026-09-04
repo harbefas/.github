@@ -90,7 +90,7 @@ Two themes, dark and light: **Yerba Mate** and **Tererê**. One design system ba
 | **Zen Browser** | [zen-yerba-mate](https://github.com/harbefas/zen-yerba-mate) | [zen-terere](https://github.com/harbefas/zen-terere) |
 | **LibreWolf** | [librewolf-yerba-mate](https://github.com/harbefas/librewolf-yerba-mate) | included |
 
-Design tokens and components: [design-system](https://github.com/harbefas/design-system) · Showcase: [mateCreations.github.io](https://harbefas.github.io/mateCreations.github.io/)
+Design tokens and components: [design-system](https://github.com/harbefas/design-system) · Showcase: [mateCreations.github.io](https://harbefas.github.io/)
 
 ### Homelab
 
