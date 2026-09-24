@@ -1,106 +1,66 @@
-<h1 align="center">harbefas</h1>
+<h1 align="center">Harbefas</h1>
 
 <p align="center">
-  Personal engineering studio. Agent infra, Omarchy plugins, a design system, a homelab.
+  Open-source replacements for tools that should never have been rented.<br>
+  Terminal-first, keyboard-driven, no account required.
+</p>
+
+<p align="center">
+  <a href="https://harbefas.github.io">harbefas.github.io</a>
 </p>
 
 ---
 
-### AI & agent infra
+The feed decides what you read. The library disappears when the licence lapses.
+The assistant runs under rules written by the company that sells it. None of
+that is a technical requirement — it is what happens when the tool belongs to a
+vendor and you are the tenant.
 
-| Project | What it does |
-|---|---|
-| [arbitus](https://github.com/harbefas/arbitus) | Security gateway for MCP tool calls — blocks secret leaks, enforces agent policies, human approval for risky actions |
-| [arbitus-site](https://github.com/harbefas/arbitus-site) | Docs and landing page for Arbitus |
-| [agent-code-buddy](https://github.com/harbefas/agent-code-buddy) | Companion approval surface for local coding agents |
-| [sandbox](https://github.com/harbefas/sandbox) · [sandbox-site](https://github.com/harbefas/sandbox-site) | Visual validation engine for AI agents |
+This org takes one of those tools at a time and builds the version you can own:
+read the source, run it offline, fork it if the maintainer goes quiet.
+Sometimes that means a new program; often it means a patch to one that already
+exists.
 
-### Omarchy plugins
+Small programs, one job each, MIT. Keyboard before mouse, terminal before tab,
+plain text before database, local-first before cloud.
 
-| Project | What it does |
-|---|---|
-| [omarchy-almanac](https://github.com/harbefas/omarchy-almanac) | Calendar, agenda and event manager, backed by khal |
-| [omarchy-vault](https://github.com/harbefas/omarchy-vault) | Browse, search, read and edit Markdown vaults |
-| [omarchy-system-stats](https://github.com/harbefas/omarchy-system-stats) | Bar widget: live CPU/mem/disk, per-core temps, top processes |
-| [omarchy-keybinds](https://github.com/harbefas/omarchy-keybinds) | Searchable keybinding reference for Hyprland and your terminal tools |
-| [omarchy-dynamic-wallpaper](https://github.com/harbefas/omarchy-dynamic-wallpaper) | Wallpaper that changes with time of day |
+### Read, watch, listen
 
-### Hyprland / Wayland
+| Project | What it does | Replaces |
+|---|---|---|
+| [paperboy](https://github.com/harbefas/paperboy) | RSS reader and podcast player as your browser's new tab | the algorithmic feed |
+| [paperboy-tui](https://github.com/harbefas/paperboy-tui) | The same reader in the terminal | a web app for reading text |
+| [oikos](https://github.com/harbefas/oikos) | Self-hosted media and retro-gaming server, driven from the TV or your phone | a stack of streaming subscriptions |
 
-| Project | What it does |
-|---|---|
-| [keybinds-tui](https://github.com/harbefas/keybinds-tui) | Terminal keybinding lookup, auto-opens on the tab matching your focused app |
-| [hyprpad](https://github.com/harbefas/hyprpad) | Turn your phone into a mouse/keyboard/trackpad over the browser, no app install |
+### The desktop
 
-### Paperboy — RSS reader
+| Project | What it does | Replaces |
+|---|---|---|
+| Amphora *(in development)* | Browser on CEF where dark mode, ad blocking and vim keys are the browser, not extensions | Chrome plus a pile of extensions |
+| [gambito](https://github.com/harbefas/gambito) | Keyboard-first Lichess client for tiling desktops, with Stockfish analysis | playing chess in a browser tab |
+| [hyprpad](https://github.com/harbefas/hyprpad) | Phone as keyboard, trackpad and media remote for Wayland, over the browser | a proprietary remote-control app |
+| [keybinds-tui](https://github.com/harbefas/keybinds-tui) | Keybinding lookup parsed from the real configs, live Neovim included | a cheatsheet you forgot to update |
 
-| Project | What it does |
-|---|---|
-| [paperboy](https://github.com/harbefas/paperboy) | Minimal RSS reader as your browser's new tab page |
-| [paperboy-tui](https://github.com/harbefas/paperboy-tui) | Terminal UI, keyboard-first, with a podcast player |
-| [paperboy-site](https://github.com/harbefas/paperboy-site) | Landing page |
+### Agent infrastructure
 
-### Design — Mate Creations
+| Project | What it does | Replaces |
+|---|---|---|
+| [arbitus](https://github.com/harbefas/arbitus) | Security gateway for MCP tool calls: auth, allow/deny lists, payload filtering, human approval, audit log | vendor-side guardrails you cannot inspect |
+| [agent-code-buddy](https://github.com/harbefas/agent-code-buddy) | Approval surface on your phone for an agent's writes, commands and API calls | letting an agent run unattended |
+| [agent-memory](https://github.com/nfvelten/agent-memory) | MCP server for project memory across sessions, with staleness checks | context that dies with the session |
 
-Two themes, dark and light: **Yerba Mate** and **Tererê**. One design system backing all of them.
+### Look and feel
 
-<table align="center">
-  <tr>
-    <td align="center" colspan="2"><strong>Yerba Mate</strong> — dark</td>
-    <td align="center" colspan="2"><strong>Tererê</strong> — light</td>
-  </tr>
-  <tr>
-    <td><img src="https://placehold.co/20x20/1c1e13/1c1e13" /> Background</td>
-    <td><code>#1c1e13</code></td>
-    <td><img src="https://placehold.co/20x20/fbf1c7/fbf1c7" /> Background</td>
-    <td><code>#fbf1c7</code></td>
-  </tr>
-  <tr>
-    <td><img src="https://placehold.co/20x20/c25d44/c25d44" /> Keywords</td>
-    <td><code>#c25d44</code></td>
-    <td><img src="https://placehold.co/20x20/9d0006/9d0006" /> Keywords</td>
-    <td><code>#9d0006</code></td>
-  </tr>
-  <tr>
-    <td><img src="https://placehold.co/20x20/8fb339/8fb339" /> Strings</td>
-    <td><code>#8fb339</code></td>
-    <td><img src="https://placehold.co/20x20/79740e/79740e" /> Strings</td>
-    <td><code>#79740e</code></td>
-  </tr>
-  <tr>
-    <td><img src="https://placehold.co/20x20/7eb2d1/7eb2d1" /> Functions</td>
-    <td><code>#7eb2d1</code></td>
-    <td><img src="https://placehold.co/20x20/076678/076678" /> Functions</td>
-    <td><code>#076678</code></td>
-  </tr>
-  <tr>
-    <td><img src="https://placehold.co/20x20/a67c52/a67c52" /> Types</td>
-    <td><code>#a67c52</code></td>
-    <td><img src="https://placehold.co/20x20/b57614/b57614" /> Types</td>
-    <td><code>#b57614</code></td>
-  </tr>
-</table>
+[Mate Creations](https://harbefas.github.io/matecreations-site/) — Yerba Mate (dark) and Tererê (light).
+Tokens authored in DTCG JSON, compiled with Style Dictionary, WCAG-checked in both
+themes, shipped to [Neovim](https://github.com/harbefas/yerba-mate.nvim),
+[VS Code](https://github.com/harbefas/vscode-yerba-mate),
+[Obsidian](https://github.com/harbefas/obsidian-yerba-mate),
+[Zen Browser](https://github.com/harbefas/zen-yerba-mate) and
+[LibreWolf](https://github.com/harbefas/librewolf-yerba-mate) from one source.
 
-| App | Dark | Light |
-|-----|------|-------|
-| **Neovim** | [yerba-mate.nvim](https://github.com/harbefas/yerba-mate.nvim) | included |
-| **VS Code** | [vscode-yerba-mate](https://github.com/harbefas/vscode-yerba-mate) | included |
-| **Obsidian** | [obsidian-yerba-mate](https://github.com/harbefas/obsidian-yerba-mate) | included |
-| **Omarchy** | [omarchy-yerba-mate](https://github.com/harbefas/omarchy-yerba-mate) | [omarchy-terere](https://github.com/harbefas/omarchy-terere) |
-| **Zen Browser** | [zen-yerba-mate](https://github.com/harbefas/zen-yerba-mate) | [zen-terere](https://github.com/harbefas/zen-terere) |
-| **LibreWolf** | [librewolf-yerba-mate](https://github.com/harbefas/librewolf-yerba-mate) | included |
+---
 
-Design tokens and components: [design-system](https://github.com/harbefas/design-system) · Showcase: [mateCreations.github.io](https://harbefas.github.io/)
-
-### Homelab
-
-| Project | What it does |
-|---|---|
-| [oikos](https://github.com/harbefas/oikos) | Self-hosted media + retro-gaming homelab on one old PC, controlled from your phone |
-
-### Other
-
-| Project | What it does |
-|---|---|
-| [contender](https://github.com/harbefas/contender) | MMA career game with a living world simulation and stylized 2D combat |
-| [amphora-zero](https://github.com/harbefas/amphora-zero) | Firmware-style Android security lab |
+<p align="center">
+  Patches welcome, here or upstream. MIT throughout, no CLA.
+</p>
