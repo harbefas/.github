@@ -49,6 +49,25 @@ plain text before database, local-first before cloud.
 | [agent-code-buddy](https://github.com/harbefas/agent-code-buddy) | Approval surface on your phone for an agent's writes, commands and API calls | letting an agent run unattended |
 | [agent-memory](https://github.com/nfvelten/agent-memory) | MCP server for project memory across sessions, with staleness checks | context that dies with the session |
 
+### Upstream
+
+Half the work is not a repository here. **20 merged pull requests across 14
+projects**, with 14 more open — a fix upstream keeps the open option closing the
+gap on the paid one.
+
+[rclone](https://github.com/rclone/rclone) ·
+[raylib](https://github.com/raysan5/raylib) ·
+[Transmission](https://github.com/transmission/transmission) ·
+[Lichess](https://github.com/lichess-org/lila) ·
+[lnav](https://github.com/tstack/lnav) ·
+[Cataclysm: BN](https://github.com/cataclysmbnteam/Cataclysm-BN) ·
+[Shelfmark](https://github.com/calibrain/shelfmark) ·
+[tuicr](https://github.com/agavra/tuicr) ·
+[rdrview](https://github.com/eafer/rdrview) ·
+[TorrServer](https://github.com/YouROK/TorrServer) ·
+[usage](https://github.com/jdx/usage) ·
+[cliamp](https://github.com/bjarneo/cliamp)
+
 ### Look and feel
 
 [Mate Creations](https://harbefas.github.io/matecreations-site/) — Yerba Mate (dark) and Tererê (light).
